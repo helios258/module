@@ -1,0 +1,118 @@
+{
+  "cranes": [
+    {
+      "id": "8bdc9d3e-0a0a-42a4-9c91-72b95d86958d",
+      "code": "CR-104-A",
+      "workshop": "Ливарний цех №1",
+      "maxCapacityTons": 50,
+      "commissioningYear": 2010,
+      "status": "ready"
+    },
+    {
+      "id": "5c7cd674-92b4-494b-8f3a-6cb861403017",
+      "code": "CR-105-B",
+      "workshop": "Ливарний цех №2",
+      "maxCapacityTons": 120,
+      "commissioningYear": 2015,
+      "status": "in_maintenance"
+    },
+    {
+      "id": "f40b22e0-34eb-4e01-9a6c-d8cba92af13a",
+      "code": "CR-106-C",
+      "workshop": "Прокатний стан",
+      "maxCapacityTons": 250,
+      "commissioningYear": 2020,
+      "status": "critical"
+    },
+    {
+      "id": "b6c58af3-c34f-4327-b629-f74094828eba",
+      "code": "CR-107-D",
+      "workshop": "Склад готової продукції",
+      "maxCapacityTons": 15,
+      "commissioningYear": 1998,
+      "status": "ready"
+    },
+    {
+      "id": "2eada983-dad8-4707-a2c4-73ef805ad13d",
+      "code": "dg-21",
+      "workshop": "ливарний цех",
+      "maxCapacityTons": 10,
+      "commissioningYear": 2026,
+      "status": "ready"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "b7192eab-f703-485f-980c-ce782af35c76",
+      "craneId": "8bdc9d3e-0a0a-42a4-9c91-72b95d86958d",
+      "inspectionDate": "2026-01-10",
+      "inspector": "Коваленко О.П.",
+      "componentType": "cable",
+      "wearPercentage": 20,
+      "notes": "Стан задовільний"
+    },
+    {
+      "id": "67baa014-d9e2-48e6-a5c9-4a5951f5830e",
+      "craneId": "8bdc9d3e-0a0a-42a4-9c91-72b95d86958d",
+      "inspectionDate": "2026-02-15",
+      "inspector": "Коваленко О.П.",
+      "componentType": "brake",
+      "wearPercentage": 35,
+      "notes": "Незначний знос колодок"
+    },
+    {
+      "id": "cc1f4128-c981-402f-aab8-14166e03bad3",
+      "craneId": "5c7cd674-92b4-494b-8f3a-6cb861403017",
+      "inspectionDate": "2026-03-01",
+      "inspector": "Мельник В.І.",
+      "componentType": "hook",
+      "wearPercentage": 65,
+      "notes": "Потрібен плановий огляд гака"
+    },
+    {
+      "id": "c5c6bfa5-bcbb-4d4b-9df1-488272b2e271",
+      "craneId": "5c7cd674-92b4-494b-8f3a-6cb861403017",
+      "inspectionDate": "2026-03-12",
+      "inspector": "Мельник В.І.",
+      "componentType": "cable",
+      "wearPercentage": 40,
+      "notes": "Змащення троса виконано"
+    },
+    {
+      "id": "b5a9f6a6-5811-4bc4-b19a-4ff1e6a9ce5a",
+      "craneId": "f40b22e0-34eb-4e01-9a6c-d8cba92af13a",
+      "inspectionDate": "2026-04-05",
+      "inspector": "Сидоренко А.М.",
+      "componentType": "cable",
+      "wearPercentage": 85,
+      "notes": "Критичний знос! Експлуатацію заборонено"
+    },
+    {
+      "id": "250dfb98-21e9-48c6-ab61-e4db8502109a",
+      "craneId": "f40b22e0-34eb-4e01-9a6c-d8cba92af13a",
+      "inspectionDate": "2026-04-06",
+      "inspector": "Сидоренко А.М.",
+      "componentType": "brake",
+      "wearPercentage": 55,
+      "notes": "Підтягнуто гальмівний шків"
+    },
+    {
+      "id": "33a8a2d4-0542-4e26-b73f-36027fcfd4c8",
+      "craneId": "b6c58af3-c34f-4327-b629-f74094828eba",
+      "inspectionDate": "2026-05-10",
+      "inspector": "Бондаренко С.В.",
+      "componentType": "hook",
+      "wearPercentage": 15,
+      "notes": "Без зауважень"
+    },
+    {
+      "id": "0cf9b0ba-5273-49ce-95a7-e48c22802c6a",
+      "craneId": "b6c58af3-c34f-4327-b629-f74094828eba",
+      "inspectionDate": "2026-05-20",
+      "inspector": "Бондаренко С.В.",
+      "componentType": "cable",
+      "wearPercentage": 25,
+      "notes": "Норма"
+    }
+  ]
+}
